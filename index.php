@@ -84,6 +84,11 @@ $clowncar = <<<'EOT'
 EOT;
 ?>
 
+<h1>Clowncar Images demo, wtih "retina" image support</h1>
+
+<p>This technique builds upon that documented <a href="http://coding.smashingmagazine.com/2013/06/02/clown-car-technique-solving-for-adaptive-images-in-responsive-web-design/">here</a>. <a href="https://github.com/justinph/clowncar-retina">Github repo</a></p> 
+
+
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <object data="data:image/svg+xml,<?php echo rawurlencode(replace_newline($clowncar)); ?>" type="image/svg+xml"></object>
